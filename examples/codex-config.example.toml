@@ -1,0 +1,4 @@
+[mcp_servers.pintia]
+command = "node"
+args = ["/absolute/path/to/pintia-mcp-skill/packages/pintia-mcp-server/dist/index.js"]
+env = { PINTIA_COOKIE = "replace-with-your-cookie", PINTIA_TIMEOUT_MS = "10000" }
